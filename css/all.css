@@ -1,0 +1,507 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* 以上是css reset */
+
+.clearfix {
+    clear: both;
+}
+
+.wrap {
+    max-width: 1024px;
+    margin: 0 auto;
+    font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+    box-shadow: 0px 0px 15px gray;
+}
+
+header {
+    width: 100%;
+    height: 420px;
+    background-image: url('https://upload.cc/i1/2020/01/27/fIUq8h.png');
+    position: relative;
+}
+
+nav {
+    width: 100%;
+    height: 56px;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.logo {
+    position: absolute;
+    left: 42px;
+    top: 18px;
+}
+
+.menu {
+    color: white;
+    position: absolute;
+    right: 27px;
+    top: 18px;
+}
+
+.menu li {
+    float: left;
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #A09A99;
+}
+
+.menu a:hover {
+    color: white;
+}
+
+.showmenu {
+    color: white;
+    font-size: 21px;
+    position: absolute;
+    right: 22px;
+    top: 16px;
+    display: none;
+}
+
+.box {
+    width: 460px;
+    height: 152px;
+    background-color: black;
+    position: absolute;
+    left: 282px;
+    top: 123px;
+    opacity: 0.4;
+}
+
+.box2 {
+    width: 460px;
+    height: 152px;
+    position: absolute;
+    left: 282px;
+    top: 123px;
+    color: white;
+}
+
+.box2 h1 {
+    font-size: 36px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.box2 h4 {
+    text-align: center;
+    line-height: 25px;
+    opacity: 0.8;
+}
+
+
+/* 以上是header的設定 */
+
+.features {
+    width: 100%;
+    height: 570px;
+    background-color: #EFE9E7;
+    padding-top: 31px;
+    padding-bottom: 50px;
+}
+
+.box3 {
+    width: 450px;
+    margin: 0 auto;
+    height: 64px;
+}
+
+.box4 {
+    width: 26%;
+    float: left;
+    line-height: 32px;
+    color: #EFE9E7;
+}
+
+.box5 {
+    width: 48%;
+    float: left;
+    line-height: 15px;
+    text-align: center;
+    margin-top: 19px;
+    color: #5E392D;
+    font-size: 20px;
+}
+
+.box6 {
+    width: 26%;
+    float: left;
+    line-height: 32px;
+    color: #EFE9E7;
+}
+
+.description {
+    margin-top: 31px;
+    color: #5E392D;
+}
+
+.feature1 {
+    width: 26%;
+    padding-left: 5%;
+    float: left;
+}
+
+.feature2 {
+    width: 26%;
+    padding-left: 6%;
+    float: left;
+}
+
+.feature3 {
+    width: 26%;
+    padding-left: 6%;
+    padding-right: 5%;
+    float: left;
+}
+
+.features img {
+    margin-left: 30px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.features h3 {
+    text-align: center;
+    margin-bottom: 11px;
+}
+
+.description p {
+    line-height: 1.3em;
+}
+
+
+/* 以上是features的設定 */
+
+.chef {
+    width: 100%;
+    height: 460px;
+    background-color: #3C1103;
+    color: #CBBDB9
+}
+
+.chef img {
+    margin-left: 42px;
+    float: left;
+}
+
+.chef h2 {
+    padding-top: 81px;
+    margin-left: 537px;
+    font-size: 20px;
+}
+
+.chef h3 {
+    margin-left: 537px;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.chef p {
+    margin-left: 537px;
+    padding-top: 16px;
+    font-size: 15px;
+    margin-right: 77px;
+    line-height: 20px;
+}
+
+
+/* 以上是features的設定 */
+
+.comment {
+    width: 100%;
+    height: 365px;
+    background-color: #EFE9E7;
+    color: #5E392D;
+}
+
+.comment h2 {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 50px;
+    margin-bottom: 32px;
+}
+
+.comment img {
+    width: 67px;
+    border-radius: 50%;
+    float: left;
+}
+
+.person1 {
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+}
+
+.person2 {
+    width: 30%;
+    float: left;
+}
+
+.person3 {
+    width: 30%;
+    float: left;
+}
+
+.comment h3 {
+    margin-top: 20px;
+    margin-left: 72px;
+}
+
+.comment p {
+    margin-left: 72px;
+    margin-top: 22px;
+}
+
+.comment span {
+    margin-top: 16px;
+    float: right;
+}
+
+
+/* 以上是comment的設定 */
+
+.data {
+    width: 100%;
+    height: 588px;
+    background-color: #F6F4F3;
+    color: #5E392D;
+}
+
+.data h2 {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 50px;
+    line-height: 32px;
+}
+
+.data img {
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 38px;
+    float: left;
+}
+
+.data form {
+    margin-top: 38px;
+    margin-left: 52%;
+    font-size: 16px;
+    width: 45%;
+}
+
+.data .radio {
+    width: 16px;
+    height: 16px;
+}
+
+.data form input {
+    height: 32px;
+    width: 100%;
+}
+
+.data form #btn1 {
+    float: right;
+    margin-left: 10px;
+    margin-top: 30px;
+    background-color: #F36D31;
+}
+
+.data form #btn2 {
+    float: right;
+    margin-left: 10px;
+    margin-top: 30px;
+    background-color: #A09E9E;
+}
+
+
+/* 以上是form的設定 */
+
+footer {
+    padding-top: 50px;
+    height: 150px;
+    background-color: #EFE9E7;
+    color: #5E392D;
+    margin-bottom: 50px;
+}
+
+footer .about {
+    width: 30%;
+    margin-left: 4%;
+    float: left;
+}
+
+footer .connection {
+    width: 30%;
+    margin-left: 2%;
+    float: left;
+}
+
+footer .connection ul {
+    list-style-type: disc;
+    margin-left: 16px;
+}
+
+footer .way {
+    margin-right: 4%;
+    float: right;
+}
+
+footer .link img {
+    float: right;
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+
+/* 以上是footer的設定 */
+
+
+/* 以上是Homepage */
